@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:fontFamily="@font/montserrat_bold" />
+
+        <ImageView
+            android:id="@+id/image_view_upload"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:id="@+id/item_desc_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Item Description"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:fontFamily="@font/montserrat_bold" />
+
+        <TextView
+            android:id="@+id/item_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item Description"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:fontFamily="@font/montserrat" />
+
+
+        <TextView
+            android:id="@+id/phone_num_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:fontFamily="@font/montserrat_bold" />
+
+        <TextView
+            android:id="@+id/phone_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:fontFamily="@font/montserrat" />
+
+        <TextView
+            android:id="@+id/email_add_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Address"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:fontFamily="@font/montserrat_bold" />
+
+        <TextView
+            android:id="@+id/email_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Address"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:fontFamily="@font/montserrat" />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

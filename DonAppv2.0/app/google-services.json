@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "877062223010",
+    "firebase_url": "https://donapp-ec0b5.firebaseio.com",
+    "project_id": "donapp-ec0b5",
+    "storage_bucket": "donapp-ec0b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877062223010:android:e4843ee135224d1af653fb",
+        "android_client_info": {
+          "package_name": "com.example.donapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877062223010-73pukp879cfpg23kh5gerid4g52k8go0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFDdfgBSKz4A9WzQr6VHzqm8DlvhFOLO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877062223010-73pukp879cfpg23kh5gerid4g52k8go0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

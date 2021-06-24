@@ -1,0 +1,49 @@
+                                                         SPRINT BACKLOG
+Before Sprint 1:
+-First created the "Create Account Page".
+-Created the database using SQLlite Database Management.
+-Second created the "Login Page". (Where the user can log in using his username and password details)
+-Fetching username and password details from the database in order for user to login in his account.
+
+SPRINT 1:
+-We missed a few things for submission for Sprint 1 which will be completed before Sprint 2.
+i) Sprint backlog file
+ii.) Team Reflection file
+iii.) Test cases for the Project
+
+-We demonstrated to Akila Sir the following things
+i.) How the create account page works.
+ii.) How to add the data to the Database. In order to successfully create an Account, the user needs to satisfy the following things:
+    -the passwords entered twice should match
+    -the passwords conditions should match (Minimum one uppercase, one lowercase, one digit required)
+ii.) How the username and password details gets stored in the database using SQLite Database.
+iii.) How the password conditions need to be fullfilled in order to create an account for either "Donator" or "Recipient".
+iv.) Using the data from the database, how a user logins to the main home screen page from the "Login Page". (Different main screens for "Donator" and "Recipient" is to be implemented yet!)
+iv.) If the details for the user does not match at Login page, it shows an error.
+
+SPRINT 2:
+i.) Made many changes and fixed bugs during creating the account for the user
+       -It shows error when the username already exists in the database
+       -It shows error when the password conditions and confirm password again fields do no match
+ ii.) Now when the user logs in, if the user is recipient, the app opens the recipient fragment and if the user is donator, the app opens
+      the donator fragment
+ iii.) User (Recipient or Donator) can update his information in the settings tab which updates the information in the database.
+ iv.) Created the email recovery page where if the user forgets the password, the user needs to enter the username and the account type. 
+      If such account exists, the user can retrieve his/her password. 
+      Else it shows an Toast message that such account does not exist.
+ v.) Currently working on storing images in the database and showing up the results
+ 
+
+
+SPRINT 3:
+i.) Connected Firebase Storage and Database to the project.
+ii.) Now a donator can create a donation by adding a image and the description about the image which will be stored in the Firebase
+    Database
+iii.) The recipient can see available donations when he logs in his account which are uploaded by the donators 
+iv.) If possible I will try adding phone number and email information from the donator while uploading the item for donator. So that 
+    the recipient can contact directly through phone or email if he/she is interested in any item.
+v.) The user can delete the account in the settings tab where it pops up an additional message for verification.    
+vi.) The recipient can delete the item from his account if he is not interested in it.
+vii.) Now will implement on:
+        a.) Recipient can add items to Favorites
+        b.) Recipient can choose to "Not Interested" in any selected item.

@@ -1,0 +1,83 @@
+App name ideas:
+	•	Donate4U 
+	•	CharityApp 
+	•	DonApp 
+	•	TreasureFinder 
+	•	BigGiver 
+
+
+Front End
+
+Account information: Name, birthday, email, phone number/ An account is required for all functions  
+	•	Verification process for new users 
+	•	Age restriction  
+
+Recipients view: navigate donors/ items, mark items they are interested in
+	•	Maybe sort by items distance 
+	•	Local people 
+	•	Recipients can only be organizations, not individuals 
+	•	Recipients must set up an account with an organization email address 
+	•	Must input registration number to confirm they are a legit charity; this can be made visible to those who request to see it 
+	•	Recipients mark their own storage capacity / other limitations 
+	•	Organization registration number, location, etc… 
+	•	Items sorter by time posted  
+	•	Favourite items and get notifications when donors contact  
+	•	FAvorite a tag to see items that pop up with that tag 
+	•	Rating system  
+	•	Filter system  
+Donor view: Be able to list items, see recipient details for location and interests
+	•	No limit to donations 
+	•	Item categories: perishable/ delicate 
+	•	Save “favorite” recipients to track their actions, and access them from a menu quickly 
+	•	Receives a receipt for tax purposes  
+	•	Rating system  
+	•	Filter system by recipients that meet criteria  
+	* 	Creating a Cancel donation button, where the donor can retive his request to donate
+
+ Transaction history: Recipient/ Donor info/ date/ item info
+
+Donor/ Recipient interaction: Email addresses should not be visible to each other. Recipient marks their interest in items and the donor will see a notification of interests. (no direct communication necessary, but not sure of specific)
+	•	Donors choose who receives the donation  
+	•	After recipient “likes an item” the donor has initiative to start interaction with recipient based off a list 
+	•	Donors reach out to recipient to determine pickup/dropoff  
+	•	NO in-app transactions  
+
+Items info:
+	•	Name, quality, description 
+	•	Listed if donator will deliver or if recipient needs to pick up 
+	•	 
+
+
+
+-Limited to the United States
+-Shipping should be handled outside of the app
+-Encouraged to implement rating system for users
+
+-Items automatically removed after 3 months 
+-Recipients search based off of location 
+
+-What information should be immediately displayed to the user on the screen to view listed items? (Photo, item name, etc.) Photo, name, description, category, quantity 
+
+-Filter search items
+-Photos for posted items are optional, not required (maybe we can design little icons to represent different categories of items when there’s no photo, like clothes, electronics, etc.)
+-Items appear in the order in which they were posted
+-No transactions within app
+
+ 
+Back End
+
+-Use SQLite or Firebase  + encryption to store username, email and passwords
+	-Allow users to reset their password with email recovery or through message using Twilio API.
+	-Third-Party login (ex. Login with Google, Facebook…) encouraged but not required
+
+-English translation not needed (US only)
+
+-An admin account is not required (All the information about usernames and passwords can be seen and retrieved through the database. 
+
+-“Should be compatible with Android 7.0 and beyond” - our client
+
+-2-factor authentication is not needed
+
+-No server required, only a simple database (SQlite, SQL, etc) 
+
+-Typically, no plug-ins are needed for this app building

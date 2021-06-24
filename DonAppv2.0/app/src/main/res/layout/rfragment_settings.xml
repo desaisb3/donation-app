@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="My Account Recipient"
+        android:textSize="30sp"
+        app:autoSizeTextType="none" />
+
+    <Button
+        android:id="@+id/buttonChangeInformation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Inforamtion"
+        android:layout_below="@id/buttonTroubleshoot"
+        android:layout_centerInParent="true"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="127dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/textViewAccountUserRecipient"
+        android:layout_centerInParent="true"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <TextView
+        android:id="@+id/textViewAccountUserRecipient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="27dp"
+        android:layout_centerInParent="true"
+        android:text="Account Name"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:text="Logout" />
+
+    <Button
+        android:id="@+id/buttonTroubleshoot"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonLogout"
+        android:text="Report Traoubleshoot" />
+
+    <Button
+        android:id="@+id/buttonDeleteAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/buttonChangeInformation"
+        android:text="Delete Account" />
+
+    <Button
+        android:id="@+id/buttonSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/buttonDeleteAccount"
+        android:text="Setting" />
+
+    <Button
+        android:id="@+id/buttonHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/buttonSetting"
+        android:text="History" />
+
+
+
+</RelativeLayout>
+

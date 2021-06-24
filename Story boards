@@ -1,0 +1,93 @@
+User story template:
+As a <role> , I want to <do some task> so that <I can achieve some goal>
+
+User Story 1: As a charity, I want to create an account, so that I can receive donations.
+
+User Story 2: As a user, I would like to recover my password, so I can get into my account.
+
+User Story 3: As a Donator, I would like to put an item up for donation, so that I can declutter my house.
+
+User Story 4: As a charity, I would like to mark an item as "interested", so that I can get in contact with the donator. 
+
+User Story 5: As a Recipient, I would like to sort by distance, so I can find items close to me.
+
+User Story 6: As a Donator, I would like to receive a donation reciept, so I can file it under my taxes.
+
+User Story 7: As a Donator, I would like to favorite Recipients, so I can donate to people I like. 
+
+User Story 8: As a User, I would like to access my transaction history, so I can see the things I've given or received. 
+
+User Story 9: As a Donator, I would like initiate contact with a recipient, so I can get them their donation. 
+
+User Story 10: As a Recipient, I would like to search for a specific item, so I can find the item I am looking for.
+
+User Story 11: As a Donator, I would like to view a recipients registration number, so I can make sure they are a real charity. 
+
+User Story 12: As a Recipient, I would like to mark a type of item as interested, so I can see as soon as someone posts it. 
+
+User Story 13: As a User, I would like to search an item that I wish to see, so that I can contact the donator to get it.
+
+User Story 14: As a Donator, I would like to be able to retrive my request of donation, so that the item is not dispalyed as available
+
+User Story 15: As a User, I would like to be able to report an error in the app, so that the producer can adjust the problem  
+
+User Story 16: As a User, i would like to be able to change the screen in night mode, so that he have a better appriciation of the app 
+
+User Story 17: As a Donator, I would like to see whether or not the item I posted has been requested for donation by an organization,
+so that I can choose to accept or deny their request.
+
+User Story 18: As a User, I would like to be able to easily report bugs / troubleshooting, so that the developers can fix
+my problems and I can use the app better.
+
+User Story 19: As a User, I would like to add or change my profile picture of my account, so that other people on this application can see my profile picture.
+
+User Story 20: As a User, I would like to add my phone number in my account details, so that the people who are interested for some item can contact me when required.
+
+
+Scenario template:
+ Given some specific starting condition(s),
+ When I take specific action X,
+ Then one or more specific thing(s) should happen
+
+Scenario 1: Given the login screen page, when I click on Create Account Button, then it should take me to a screen where I can fill up my details and create my account.
+
+Scenario 2: Given the login screen page, when I click on Forgot Password link, then it should take me to a screen where I will write my recovery email and retrieve my password.
+
+Scenario 3: Given the main home page screen, when I click on upload a Donation, then it should open a screen where I can upload pictures and details about the item that has to be donated.
+
+Scenario 4: Given the screen where I am interested to a receive a donation, when I click on the item, then it should open a screen where I can see the item description and give me the details of the donator so I can reach out to him/her.
+
+Scenario 5: Given the main home page screen with the appropiate items listed, when I click on filter options and select "Sort by Distance", then it should refresh the screen and show the items listed according to selected option("Sort by distance").
+
+Scenario 6: Given the checkout screen in the application, when I click on save on "Save the Donation reciept", then it should either give me option to save the reciept in my gallery or receive it through email.
+
+Scenario 7: Given the user(donator) accounts page, when I click on "Add this person to Favorites", then it should show me a list of all persons that I have added to favorites so that I can donate the item.
+
+Scenario 8: Given the user accounts page, when I click on "Show History" button, then I should be able to see the list of all items that has been donated or received by me uptil that time. 
+
+Scenario 9: Given the donor's account page, when I click on "Show Recipient Requests" button, then it should show me requests of all recipients or charity organisations that are looking my uploaded item for donation, then I should be able to respond to them via email or phone number whichever provided by the recipients.
+
+Scenario 10: 
+
+Scenario 11:
+
+Scenario 12: 
+
+Scenario 14 :Given the intial page, when i click the undo button on a specific image of the item, then it should remove to the list of donation
+
+Scenario 15: Given the initial page, when i click the troubleshooting button, the costumer can send a message to the creator of the app, then e can solve
+the problem.
+
+Scenario 16-a: Given the setting button , when i click it, the user will be on the setting page then the user will be able to change the wallpaper
+setting from daylight(white) to nightlght(black)
+
+Scenario 16-b: Given the setting button , when i click it, the user will be on the setting page then the user will be able to change the wallpaper
+setting from nightlght(black) to daylight
+
+Scenario 19: Given the settings screen page, when I click on "My Account" button and then click on "Change Profile Picture", then it should give me option to change my profile picture either by taking selfie or choosing it from the gallery.
+
+Scenario 20: Given the settings screen page, when I click on "My Account" button and then click on "Edit Contact Details", then it should allow me to add or remove any existing phone numbers stored in the application.
+
+
+
+

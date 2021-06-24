@@ -1,0 +1,49 @@
+                                                      TEAM MEMBER-SANIDHYA DESAI
+
+
+-Created UML Diagrams, few User Stories, Storyboards, Model-View-Controller Diagram.
+-Initiated the Project.
+-Implemented the Create Account Page.
+    User enters details to store in the database.
+    User needs to satisfy the password conditions in order to create the account
+-Implemented the SQLlite Database in the Project.
+    Created table to add it to Database.
+    Created multiple tables in order to create relationships between different tables.
+-Implemented the Login Page.
+    Fetching user data from database in order to login in the application.
+-Implemented the Password Recovery Page.
+    Created Forgot Password page where a user enters the two required fields
+      -Username
+      -Account Type (Either "Donator" or "Recipient")
+-Currently working on to implementing upload and retrieve images from the database
+     User selects image from the gallery
+     It gets stored in the database as BLOB (Binary Large Object) format
+-Instead of using SQLite Database Storage for storing images, implemented Firebase Storage which was easier than SQLite.
+-Implemented the Donation Page
+    -Now, the Donator can upload a donation giving item name, item description, his phone number and email. So that any interested
+     Recipient can contact him directly through the information.
+-Implemented Available Donations Page
+    -Used Adapter and Recycler View to create the Card View of the details of the donation.
+    -The Recipient can see the donations available on the app. If interested, can contact the Donator directly
+   
+   
+   
+    
+                                                   TEAM MEMBER-IAN CROVELLA
+                                                   
+                                                   
+                                                   
+                                                 TEAM MEMBER-CHRISTIAN ROMERO
+                                                 
+- Modify the Setting portion of the app, by implemeting the button Logout, report troubleshoot, update information, delete account, setting, history
+- The user is able to see their account name on the top of the setting fragment
+- Button logout working, by sending the user to the main page
+- Button update working, send the user to the a page where it show all his information current information (name, surname and email)
+  those are now able to be changed.
+- Button delete account working, shows to the user an additional message for confirmartion of deletion and 
+ and send the user to the main page if confirmed.
+ 
+                                             
+                                                 
+                                                 
+                                                 
